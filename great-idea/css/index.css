@@ -255,7 +255,7 @@ footer p{
 
 @media (max-width: 600px) {
 	.container {
-		margin: 10px;
+		margin: 0px;
 	}
 
 	header{
@@ -269,4 +269,28 @@ footer p{
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	.services-header-img, .services-top-content, .service-bottom-content, .service-content-container {
+		width: 90vw;
+		margin-left: 5vw;
+	}
+
+	.service-bottom-content {
+		flex-wrap: wrap;
+	}
+
+	.services-content {
+		width: 90vw;
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+
+	.services-content-boxes {
+		height: 250px;
+		border: 1px solid black;
+		background: rgb(241, 240, 241);
+		padding: 20px;
+	}
+
 }
