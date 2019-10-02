@@ -64,42 +64,31 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	text-align: center;
-	width: 1100px;
-	margin: 0 auto;
+	width: 950px;
+	margin-left: 40px;
 }
 
 header{
-	width: 100%;
-	height: 80px;
-	padding-top: 50px 50px 20px 10px;;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	background-color: #B2CAD4;
-	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 nav {
-	display: inline-block;
-	margin: 0px 20px;
-	width: 75%;
+	width: 60%;
+	margin: 40px;
+	display: flex;
+	justify-content: space-between;
 }
 
 nav a {
 	text-decoration: none;
-	color: black;
-	padding: 0px 30px;
-}
-
-nav a:hover {
-	color: white;
+	color: rgb(173, 172, 173);
+	font-size: 14px;
 }
 
 .logo {
-	display: inline-block;
-	width: 200px;
-	margin-top: 20px;
+	padding: 20px 40px 20px 20px;;
 }
 
 .top-content {
@@ -132,12 +121,6 @@ h1 {
 	color: rgb(173, 172, 173);
 	border: 2px solid rgb(173, 172, 173);
 	padding: 2px 40px;
-}
-
-.top-content-text a:hover {
-	background-color: rgb(49, 154, 254);
-	transition: background 0.5s ease-in;
-	color: white;
 }
 
 .section-content {
