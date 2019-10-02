@@ -90,10 +90,11 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
 }
 
 nav {
-	width: 60%;
+	width: 65%;
 	margin: 40px;
 	display: flex;
 	justify-content: space-between;
@@ -103,6 +104,7 @@ nav a {
 	text-decoration: none;
 	color: rgb(173, 172, 173);
 	font-size: 14px;
+	padding: 0px, 5px;
 }
 
 .logo {
@@ -175,3 +177,36 @@ footer {
 footer p{
 	font-size: 14px;
 }
+
+
+/*------------------------Services Page-----------------------*/
+
+.services-header-img {
+	margin-left: 20px;
+}
+
+.services-top-content {
+	padding: 20px 20px 45px 20px;
+	border-bottom: 1px solid black;
+}
+
+.services-top-content h2 {
+	font-size: 28px;
+}
+.services-top-content  {
+	line-height: 1.2;
+}
+
+.services-content {
+	display: flex;
+	line-height: 1.2
+
+}
+
+.services-content-boxes {
+	width: calc(50%-40px);
+	border: 1px solid black;
+	background: rgb(241, 240, 241);
+	margin: 30px;
+}
+
