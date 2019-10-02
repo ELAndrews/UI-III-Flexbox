@@ -83,7 +83,7 @@ p {
 
 .container {
 	width: 950px;
-	margin-left: 40px;
+	margin: 0 auto;
 }
 
 header{
@@ -270,20 +270,20 @@ footer p{
 		flex-wrap: wrap;
 	}
 
-	.services-header-img, .services-top-content, .service-bottom-content, .service-content-container {
+	.services-header-img, .services-top-content, .service-bottom-content, .service-content-container, footer {
 		width: 90vw;
 		margin-left: 5vw;
 	}
 
 	.service-bottom-content {
 		flex-wrap: wrap;
+		height: 900px;
 	}
 
 	.services-content {
 		width: 90vw;
 		display: flex;
 		flex-wrap: wrap;
-		
 	}
 
 	.services-content-boxes {
