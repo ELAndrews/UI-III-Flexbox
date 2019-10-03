@@ -1,4 +1,4 @@
-Emma Andrews
+Emma Andrews.
 
 # User Interface Project III: Great Idea Web Page With Flexbox
 
